@@ -19,10 +19,14 @@
     position: relative;
 }
 
-.logo{
-    height: 30%;
-    width: 160px;
-    cursor: pointer;
+.header{
+    position: absolute;
+    background: #88a478;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    display: block;
 }
 
 .navbar{
@@ -50,4 +54,33 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #333;
+}
+
+.content h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 170;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+    z-index: 1;
+}
+
+.content p{
+    font-size: 20px;
+    color: #647199;
+    z-index: 1;
+}
+
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.feature-img{
+    height: 80%;
+    position: absolute;
+    z-index: 0;
+    bottom: 60px;
+    right: 100px;
 }
