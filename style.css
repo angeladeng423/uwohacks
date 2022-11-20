@@ -6,21 +6,18 @@
     padding: 0;
 }
 
-.container{
+.container-one{
     height: 100vh;
     width: 100%;
     background-image: url(images/background.png);
     background-position: center;
     background-size: cover;
-    padding-left: 5%;
-    padding-right: 4%;
-    /*defines how width & height are calculated*/
     box-sizing: border-box;
-    position: relative;
+    position: absolute;
 }
 
 .header{
-    position: absolute;
+    position: fixed;
     background: #88a478;
     width: 100%;
     height: 90px;
@@ -30,8 +27,6 @@
 }
 
 .navbar{
-    font-family: "Open Sans", sans-serif;
-    font-weight: bold;
     width: 100%;
     height: 15vh;
     margin: auto;
@@ -40,8 +35,11 @@
 }
 
 nav{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
     flex: 1;
     padding-left: 60px;
+    padding-bottom: 50px;
 }
 
 nav ul li{
@@ -50,37 +48,100 @@ nav ul li{
     margin: 0px 20px;
 }
 
-/*css for anchor tag*/
-nav ul li a{
-    text-decoration: none;
-    color: #333;
+nav ul li button{
+    display:inline-flex;
+    height: 40px;
+    width: 120px;
+    padding: 0;
+    background: #a8ca94;
+    border: none;
+    outline: none;
+    /*rounds the corners*/
+    border-radius: 5px;
+    /*content overflowing button is restricted*/
+    overflow: hidden;
+    cursor: pointer;
+    /*text*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #3c4a34;
 }
 
-.content h1{
+nav ul li button:hover{
+    background: #8fb47a;
+}
+
+nav ul li button:active{
+    background: #8fb47a;
+}
+
+.rectangleone{
+    position: fixed;
+    background: #88a478;
+    width: 32%;
+    height: 200px;
+    left: 10%;
+    top: 33%;
+    display: block;
+    border-radius: 10px;
+}
+
+.rectangleone h1{
     font-family: "Open Sans", sans-serif;
     font-size: 50px;
-    font-weight: 170;
-    margin-top: 24px;
-    margin-bottom: 15px;
-    color: #232d60;
-    z-index: 1;
-}
-
-.content p{
-    font-size: 20px;
-    color: #647199;
-    z-index: 1;
-}
-
-.content{
+    font-weight: 100;
+    margin-top: 5%;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-bottom: 30%;
+    color: #3c4a34;
+}
+
+.rectangletwo{
+    position: fixed;
+    background: #b5daa2;
+    width: 32%;
+    height: 200;
+    left: 10%;
+    top: 55%;
+    display: block;
+    border-radius: 10px;
+}
+
+.rectangletwo p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
 }
 
 .feature-img{
-    height: 80%;
+    height: 70%;
     position: absolute;
-    z-index: 0;
-    bottom: 60px;
-    right: 100px;
+    bottom: 15%;
+    right: 5%;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 6%;
+    width: 100%;
+    background-color: #87A28A;
+    display: block;
+}
+
+.footer-img{
+    height: 10%;
+    bottom: 5%;
+    left: 2%;
+    position: fixed;
 }
