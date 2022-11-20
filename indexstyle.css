@@ -1,0 +1,72 @@
+.rectangleone{
+    position: fixed;
+    background: #88a478;
+    width: 32%;
+    height: 200px;
+    left: 10%;
+    top: 33%;
+    display: block;
+    border-radius: 10px;
+}
+
+.rectangleone h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 30%;
+    color: #3c4a34;
+}
+
+.rectangletwo{
+    position: fixed;
+    background: #b5daa2;
+    width: 32%;
+    height: 200;
+    left: 10%;
+    top: 55%;
+    display: block;
+    border-radius: 10px;
+}
+
+.rectangletwo p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}
+
+.feature-img{
+    height: 70%;
+    position: absolute;
+    bottom: 15%;
+    right: 8%;
+}
+
+.button1-img{
+    height: 8%;
+    position: absolute;
+    left: 46%;
+    bottom: 8%;
+}
+
+.button2-img{
+    height: 8%;
+    position: absolute;
+    left: 46%;
+    bottom: 8%;
+}
+
+.button1-img:hover{
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.container-two{
+    background-color: white;
+}

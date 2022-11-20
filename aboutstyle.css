@@ -1,0 +1,37 @@
+.aboutUs-img{
+    height: 70%;
+    position: absolute;
+    bottom: 15%;
+    left: 8%;
+}
+
+.rectangle{
+    position: fixed;
+    background: #b5daa2;
+    width: 32%;
+    height: 200;
+    right: 10%;
+    top: 30%;
+    display: block;
+    border-radius: 10px;
+}
+
+.rectangle h1{
+    font-family: "Open Sans", sans-serif;
+    margin-top:2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}
+
+.rectangle p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}
