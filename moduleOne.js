@@ -17,7 +17,7 @@ const quizData = [
     },
     {
         question: "what type of programming language is java?",
-        a: "java is an object orientated programming language",
+        a: "java is an object oriented programming language",
         b: "java is an object based programming language",
         c: "java is a platform dependent programming language",
         d: "all of the above",

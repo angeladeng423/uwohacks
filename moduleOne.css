@@ -14,6 +14,7 @@ body{
 }
 
 .quiz-container{
+    animation: transitionIn 2s;
     background-color: #93ab85;
     border-radius: 10px;
     width: 600px;
@@ -65,4 +66,26 @@ button:hover{
 button:focus{
     outline:none;
     background-color:#627757;
+}
+
+.button5-img{
+    animation: transitionIn 2s;
+    height: 8%;
+    position: absolute;
+    left: 4.5vh;
+    top: 13vh;
+}
+
+.button6-img{
+    animation: transitionIn 2s;
+    height: 8%;
+    position: absolute;
+    left: 4.5vh;
+    top: 13vh;
+}
+
+.button5-img:hover{
+    animation: transitionIn 2s;
+    opacity: 0;
+    transition: all 0.7s ease;
 }

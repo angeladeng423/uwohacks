@@ -1,0 +1,179 @@
+.rectangletwo{
+    animation: transitionIn 2s;
+    position: absolute;
+    background: #b5daa2;
+    width: 32%;
+    left: 10%;
+    top: 20%;
+    display: block;
+    border-radius: 10px;
+}
+
+.rectangletwo p{
+    animation: transitionIn 2s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}
+
+.rectangletwo ul li{
+    animation: transitionIn 2s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 10%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}
+
+.rectanglethree{
+    animation: transitionIn 2s;
+    position: absolute;
+    background: #b5daa2;
+    width: 32%;
+    left: 43%;
+    top: 20%;
+    display: block;
+    border-radius: 10px;
+}
+
+.rectanglethree p{
+    animation: transitionIn 2s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}
+
+.className{
+    animation: transitionIn 2s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}
+
+.driver{
+    animation: transitionIn 2s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 12%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}
+
+.variables{
+    animation: transitionIn 2s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 18%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}
+
+.printStatements{
+    animation: transitionIn 2s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 18%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}
+
+.bracketOne{
+    animation: transitionIn 2s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 12%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}
+
+.bracketTwo{
+    animation: transitionIn 2s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}
+
+.rectanglefour{
+    animation: transitionIn 2s;
+    position: absolute;
+    background: #a5c19a;
+    width: 32%;
+    left: 43%;
+    top: 64%;
+    display: block;
+    border-radius: 10px;
+}
+
+.rectanglefour p{
+    animation: transitionIn 2s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:3%;
+    margin-left: 39%;
+    margin-right: 6%;
+    margin-bottom: 3%;
+    color: #3c4a34;
+}
+
+.rectanglefour:hover{
+    cursor: pointer;
+}
+
+.rectanglefive{
+    animation: transitionIn 2s;
+    position: absolute;
+    background: #b5daa2;
+    width: 10%;
+    left:76%;
+    top: 20%;
+    display: block;
+    border-radius: 10px;
+}
+
+.rectanglefive p{
+    animation: transitionIn 2s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}

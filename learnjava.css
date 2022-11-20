@@ -1,0 +1,69 @@
+.rectangleone{
+    animation: transitionIn 2s;
+    position: fixed;
+    background: #88a478;
+    width: 32%;
+    height: 200px;
+    left: 10%;
+    top: 30%;
+    display: block;
+    border-radius: 10px;
+}
+
+.rectangleone h1{
+    animation: transitionIn 2s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 30%;
+    color: #3c4a34;
+}
+
+.rectangletwo{
+    animation: transitionIn 2s;
+    position: fixed;
+    background: #b5daa2;
+    width: 32%;
+    left: 10%;
+    top: 53%;
+    display: block;
+    border-radius: 10px;
+}
+
+.rectangletwo p{
+    animation: transitionIn 2s;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 5;
+    margin-top:2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 2%;
+    color: #3c4a34;
+}
+
+.button1-img{
+    animation: transitionIn 2s;
+    height: 21%;
+    position: absolute;
+    left: 90vh;
+    bottom: 40%;
+}
+
+.button2-img{
+    animation: transitionIn 2s;
+    height: 20%;
+    position: absolute;
+    left: 115vh;
+    bottom: 40%;
+}
+
+.button3-img{
+    animation: transitionIn 2s;
+    height: 20%;
+    position: absolute;
+    left: 139vh;
+    bottom: 40%;
+}
