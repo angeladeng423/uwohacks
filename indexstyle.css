@@ -26,9 +26,8 @@
     position: fixed;
     background: #b5daa2;
     width: 32%;
-    height: 200;
     left: 10%;
-    top: 55%;
+    top: 56%;
     display: block;
     border-radius: 10px;
 }
@@ -57,7 +56,7 @@
     animation: transitionIn 2s;
     height: 8%;
     position: absolute;
-    left: 46%;
+    left: 78.5vh;
     bottom: 8%;
 }
 
@@ -65,7 +64,7 @@
     animation: transitionIn 2s;
     height: 8%;
     position: absolute;
-    left: 46%;
+    left: 78.5vh;
     bottom: 8%;
 }
 
@@ -91,25 +90,120 @@
     opacity: 0;
 }
 
-.rectanglethree{
+.squareone{
     animation: transitionIn 2s;
     position: absolute;
     background: #88a478;
-    width: 70vh;
-    height: 200px;
+    width: 25vh;
+    height: 25vh;
     margin-top: 20vh;
-    margin-left: 90vh;
+    margin-left: 100vh;
     display: block;
     border-radius: 10px;
 }
 
-.rectanglethree h1{
+.squareone:hover{
+    background: #4c5b43;
+}
+
+.javaimg-img{
     animation: transitionIn 2s;
-    font-family: "Open Sans", sans-serif;
-    font-size: 40px;
-    font-weight: 100;
-    margin-top: 4%;
-    margin-left: 8%;
-    margin-bottom: 30%;
-    color: #3c4a34;
+    position: absolute;
+    height:50%;
+    margin-top: 5vh;
+    margin-left: 3vh;
+}
+
+.squaretwo{
+    animation: transitionIn 2s;
+    position: absolute;
+    background: #88a478;
+    width: 25vh;
+    height: 25vh;
+    margin-top: 20vh;
+    margin-left: 130vh;
+    display: block;
+    border-radius: 10px;
+}
+
+.squaretwo:hover{
+    background: #4c5b43;
+}
+
+.jsimg-img{
+    animation: transitionIn 2s;
+    position: absolute;
+    height:50%;
+    margin-top: 5.5vh;
+    margin-left: 5vh;
+}
+
+.squarethree{
+    animation: transitionIn 2s;
+    position: absolute;
+    background: #88a478;
+    width: 25vh;
+    height: 25vh;
+    margin-top: 50vh;
+    margin-left: 130vh;
+    display: block;
+    border-radius: 10px;
+}
+
+.squarethree:hover{
+    background: #4c5b43;
+}
+
+.pythonimg-img{
+    animation: transitionIn 2s;
+    position: absolute;
+    height:50%;
+    margin-top: 5.5vh;
+    margin-left: 5.5vh;
+}
+
+.squarefour{
+    animation: transitionIn 2s;
+    position: absolute;
+    background: #88a478;
+    width: 25vh;
+    height: 25vh;
+    margin-top: 50vh;
+    margin-left: 100vh;
+    display: block;
+    border-radius: 10px;
+}
+
+.squarefour:hover{
+    background: #4c5b43;
+}
+
+.cppimg-img{
+    animation: transitionIn 2s;
+    position: absolute;
+    height:50%;
+    margin-top: 5vh;
+    margin-left: 6.5vh;
+}
+
+.button3-img{
+    animation: transitionIn 2s;
+    height: 8%;
+    position: absolute;
+    left: 78.5vh;
+    bottom: 8%;
+}
+
+.button4-img{
+    animation: transitionIn 2s;
+    height: 8%;
+    position: absolute;
+    left: 78.5vh;
+    bottom: 8%;
+}
+
+.button3-img:hover{
+    animation: transitionIn 2s;
+    opacity: 0;
+    transition: all 0.7s ease;
 }

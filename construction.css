@@ -1,0 +1,7 @@
+.construction-img{
+    animation: transitionIn 2s;
+    height: 60%;
+    position: absolute;
+    bottom: 15%;
+    right: 30%;
+}
